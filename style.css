@@ -1,0 +1,17 @@
+html, body, *{
+    padding b0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+
+}
+h1{
+    font-size: 5rem; color:#C99761; text-align: center; font-family: 'Pacifico', cursive;
+
+}
+p{
+    font-size: 2.2rem; color:#dfdad5; text-align: center; font-family: 'Montserrat', sans-serif;
