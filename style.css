@@ -7,10 +7,14 @@ html, body, *{
 
 body{
     background-color: black;
-
 }
+
+img{
+    height: 110em; object-fit: cover; width:95em; margin:10em; box-shadow: 10px 10px #bad0e4; border-radius: 2em;
+}
+
 h1{
-    font-size: 5rem; color:#C99761; text-align: center; font-family: 'Pacifico', cursive;
+    font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Pacifico', cursive;
 
 }
 p{
