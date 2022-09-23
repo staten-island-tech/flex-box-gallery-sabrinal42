@@ -1,5 +1,5 @@
 html, body, *{
-    padding b0;
+    padding 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
@@ -10,12 +10,22 @@ body{
 }
 
 img{
-    height: 110em; object-fit: cover; width:95em; margin:10em; box-shadow: 10px 10px #bad0e4; border-radius: 2em;
+    height: 210em; width:170em; object-fit: cover; margin:33em; box-shadow: 9px 9px #bad0e4; border-radius: 2em; transition: transform .333s; cursor: pointer;
 }
+
+.allimages{
+    display: flex; flex-direction: column; justify-content: space-around; align-items: center;
+}
+
+img:hover{
+    transform: scale(1.11);
+}
+
 
 h1{
-    font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Pacifico', cursive;
+    margin: .7em .1em; font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
 
 }
-p{
-    font-size: 2.2rem; color:#dfdad5; text-align: center; font-family: 'Montserrat', sans-serif;
+.first,.second,.third{
+    text-align:justify; font-size: 10em;color:#dfdad5;  font-family: 'Montserrat', sans-serif; width:
+}
