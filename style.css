@@ -9,6 +9,10 @@ body{
     background-color: black;
 }
 
+#bae:hover{
+    transform: scale(1.4); background-color: blue;
+}
+
 img{
     height: 210em; width:170em; object-fit: cover; margin:33em; box-shadow: 9px 9px #bad0e4; border-radius: 2em; transition: transform .333s; cursor: pointer;
 }
@@ -24,8 +28,4 @@ img:hover{
 
 h1{
     margin: .7em .1em; font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
-
-}
-.first,.second,.third{
-    text-align:justify; font-size: 10em;color:#dfdad5;  font-family: 'Montserrat', sans-serif; width:
 }
