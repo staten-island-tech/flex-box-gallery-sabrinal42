@@ -8,6 +8,9 @@ html, body, *{
 body{
     background-color: black;
 }
+p{
+    color: white;
+}
 
 #bae:hover{
     transform: scale(1.4); background-color: blue;
