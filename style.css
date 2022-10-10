@@ -12,8 +12,13 @@ p{
     color: white;
 }
 
+@keyframes images1 {
+
+}
+
 #bae:hover{
     transform: scale(1.4); background-color: blue;
+    outline: 10em solid #1c4058;
 }
 
 img{
@@ -22,6 +27,27 @@ img{
 
 .allimages{
     display: flex; flex-direction: column; justify-content: space-around; align-items: center;
+}
+
+.addie:hover{
+    outline: 10em solid #5a0d0d;
+}
+
+.mer:hover{
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+
+.arizona:hover{
+    transform: matrix(1.2, -.1, 0, 1.2, 0, 0);
+}
+
+.mark:hover{
+    transform: translate(-10em ,20em);
+}
+
+img:not(:hover){
+    opacity: 0.4;
 }
 
 img:hover{
