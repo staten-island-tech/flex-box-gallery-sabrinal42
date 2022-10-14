@@ -12,9 +12,18 @@ p{
     color: white;
 }
 
-@keyframes images1 {
-
+#derek{
+    animation-name: change;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes change {
+    from {box-shadow: 9px 9px #204466;}
+    to {box-shadow: 9px 9px #adbbc7;}
+  }
 
 #bae:hover{
     transform: scale(1.4); background-color: blue;
@@ -55,6 +64,18 @@ img:hover{
 }
 
 
+@keyframes MEOW {
+    0% {font-size: 5rem;}
+    50% {font-size:7rem; margin: .1em .1em;}
+    100% {font-size:7rem; margin: .1em .1em; color:pink;}
+  }
 h1{
-    margin: .7em .1em; font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
+   font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
+    animation-name: MEOW;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
 }
+
