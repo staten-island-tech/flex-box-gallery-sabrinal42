@@ -65,14 +65,14 @@ img:hover{
 
 
 @keyframes MEOW {
-    0% {font-size: 5rem;}
+    0% {font-size: 2rem;}
     50% {font-size:7rem; margin: .1em .1em;}
     100% {font-size:7rem; margin: .1em .1em; color:pink;}
   }
 h1{
    font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
     animation-name: MEOW;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
