@@ -13,7 +13,7 @@ p{
 }
 
 #derek{
-    animation-name: change;
+animation-name: change;
   animation-duration: 6s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
@@ -30,13 +30,16 @@ p{
     outline: 10em solid #1c4058;
 }
 
+
 img{
-    height: 210em; width:170em; object-fit: cover; margin:33em; box-shadow: 9px 9px #204466; border-radius: 2em; transition: transform .333s; cursor: pointer;
+    height: 210em; width:170em; object-fit: cover; margin:33em; box-shadow: 9px 9px #9dbad4; border-radius: 2em; transition: transform .333s; cursor: pointer;
+    
 }
 
 .allimages{
     display: flex; flex-direction: column; justify-content: space-around; align-items: center;
 }
+
 
 .addie:hover{
     outline: 10em solid #5a0d0d;
@@ -65,12 +68,13 @@ img:hover{
 
 
 @keyframes MEOW {
-    0% {font-size: 2rem;}
-    50% {font-size:7rem; margin: .1em .1em;}
-    100% {font-size:7rem; margin: .1em .1em; color:pink;}
+    0% {color: #598fc2}
+    50% {color:rgb(221, 125, 141);;}
+    100% {color:rgb(128, 221, 109);}
   }
+
 h1{
-   font-size: 5rem; color:#bad0e4; text-align: center; font-family: 'Inconsolata', monospace;
+   font-size: 5rem; color:#598fc2; text-align: center; font-family: 'Inconsolata', monospace; margin: .5em .5em;
     animation-name: MEOW;
     animation-duration: 3s;
     animation-delay: 1s;
