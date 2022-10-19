@@ -83,3 +83,8 @@ h1{
     animation-timing-function: ease-in;
 }
 
+@media (max-width:600px) {
+img{
+    height: 210em; width:170em; object-fit: cover; margin:33em; box-shadow: 9px 9px #cf9dd4; border-radius: 2em; transition: transform .333s; cursor: pointer;
+}
+}
